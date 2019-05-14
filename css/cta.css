@@ -53,9 +53,7 @@
 	width: 123px;
 }
 
-.post-cta .post-cta-col svg path {
-
-}
+.post-cta .post-cta-col svg path {}
 
 .post-cta .post-cta-body-right, .post-cta .post-cta-col {
     overflow-wrap: break-word;
