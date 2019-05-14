@@ -1,0 +1,92 @@
+.post-cta {
+	display: flex;
+	flex: 1;
+	padding:0;
+	border-radius: 6px;
+	margin-top: 100px;
+	overflow: hidden;
+	filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.09));
+    -webkit-filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.1));
+}
+
+.post-cta .post-cta-col {
+	padding:40px;
+	flex-grow: 1;
+}
+
+.post-cta.post-cta-alignment-left .post-cta-col:nth-child(2),
+.post-cta.post-cta-alignment-right .post-cta-col:nth-child(1) {
+	order: 1;
+
+}
+
+.post-cta.post-cta-alignment-left .post-cta-col:nth-child(1),
+.post-cta.post-cta-alignment-right .post-cta-col:nth-child(2) {
+	order: 2;
+
+}
+
+.post-cta.post-cta-alignment-right .post-cta-col:nth-child(2) {
+	flex-basis: 60%;
+}
+
+.post-cta.post-cta-alignment-right .post-cta-col:nth-child(1) {
+	padding-right:0;	
+}
+
+.post-cta.post-cta-alignment-left .post-cta-col:nth-child(1) {
+	flex-basis: 60%;
+	padding-left:0;
+}
+
+.post-cta .post-cta-col:nth-child(1) {
+	text-align: center;
+
+}
+
+.post-cta.post-cta-alignment-left .post-cta-col:nth-child(1) svg {
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+}
+
+.post-cta svg {
+	width: 123px;
+}
+
+.post-cta .post-cta-col svg path {
+
+}
+
+.post-cta .post-cta-body-right, .post-cta .post-cta-col {
+    overflow-wrap: break-word;
+}
+
+.post-cta h3 {
+	margin:0;
+}
+
+.post-cta p {
+	margin-top:10px;
+	font-size: 16px;
+	font-weight: bold;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.post-cta a.btn {
+	background-color: #fdca75;
+	color: #fff;
+	font-weight: bold;
+	font-size:16px;
+    text-shadow: 0 0 4px rgba(236,175,73,1);
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+.post-cta a.btn:hover {
+	background-color: #f274f3;
+    text-shadow: none;
+}
+
+@media (max-width: 768px) {
+	
+}
